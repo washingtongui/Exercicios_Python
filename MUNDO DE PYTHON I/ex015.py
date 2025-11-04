@@ -1,0 +1,8 @@
+print('-'*16)
+print('M O V  L I V E')
+print('-'*16)
+dia = int(input('Quantas diárias serão pagas: '))
+km = float(input('Quantos quilómetros foram rodado com o veículo (Km): '))
+total = (dia*60) + (km*0.15)
+print('Foram {} diárias e {:.1f} quilómetros rodados'.format(dia, km))
+print('Um total de {:.2f} R$'.format(total))

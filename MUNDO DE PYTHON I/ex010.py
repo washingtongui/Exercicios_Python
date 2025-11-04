@@ -1,0 +1,5 @@
+print('CONVERSOR DE REAL PARA DÓLAR')
+print('')
+real = float(input('Quantos R$ você quer converter? '))
+dolar = (real/5.54)
+print('Vejamos seu saldo: \n{:.2f} RS \n{:.2f} US$'.format(real, dolar))
